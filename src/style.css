@@ -1,3 +1,51 @@
-body {
-    background-color: bisque;
+main {
+  display: flex;
+  margin: auto;
+  gap: 10%;
+  padding: 0 3%;
+}
+
+.left-side,
+.right-side {
+  flex-basis: 100%;
+}
+
+.left-head {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.left-head button {
+  height: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#sub-btn {
+  width: 40%;
+  align-self: end;
 }
