@@ -32,7 +32,7 @@ td,
 th {
   border: 1px solid #ddd;
   text-align: left;
-  padding: 9px;
+  padding: 8px;
 }
 
 tr:nth-child(even) {
