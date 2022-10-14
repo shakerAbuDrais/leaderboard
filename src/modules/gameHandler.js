@@ -1,4 +1,4 @@
-async function newGame() {
+const newGame = async () => {
   const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
     method: 'POST',
     headers: {
@@ -10,7 +10,7 @@ async function newGame() {
   });
   const data = await res.json();
   localStorage.setItem('GameID', data.result.split(' ')[3]);
-}
+};
 
 // function to post score to the API
 const addScore = async (user, score, gameID) => {

@@ -1,6 +1,5 @@
 # Leaderboard
-
-> 
+A project to display a simple score game, using API, You push the player name and his score, and upon clicking on refresh you will get all the results that are pushed to the API. 
 
 
 ## Built With
@@ -10,7 +9,7 @@
 - JavaScript
 
 ## Live Demo
-[Live Demo Link]
+[Live Demo Link](https://leaderboardgame.netlify.app/)
 
 
 ## Author
