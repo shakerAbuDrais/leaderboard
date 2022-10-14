@@ -11,6 +11,24 @@ A project to display a simple score game, using API, You push the player name an
 ## Live Demo
 [Live Demo Link](https://leaderboardgame.netlify.app/)
 
+## Getting Started
+
+# Setup
+To get started please clone the repo to your local machine using git clone
+
+# Install
+run npm install to install all the dependencies required to use the project.
+
+Run the following command to install webpack which is required to be able to run this project on your local machine: npm install --save-dev webpack
+
+# Usage
+Run the following command to open the project: npm run start
+
+to add a new player, please enter the player name and socre in the input fields, then click on submit
+
+to display the results on the screen please click on refresh
+
+
 
 ## Author
 
