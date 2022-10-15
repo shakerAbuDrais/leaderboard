@@ -9,9 +9,11 @@ const displayPlayer = async () => {
       },
     });
   const result = await res.json();
-  table.innerHTML = '';
+  table.innerHTML = '<tr><th>Player Name</th><th>Player Score</th></tr>';
   result.result.forEach((player) => {
-    table.innerHTML += ` <tr> <td>${player.user}: ${player.score}</td> </tr>`;
+    table.innerHTML += ` <tr class = "row"> <td>${player.user}</td> 
+    <td>${player.score}</td>
+    </tr>`;
   });
 };
 

@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 h1 {
   padding-left: 30px;
 }
@@ -7,6 +11,9 @@ main {
   margin: auto;
   gap: 10%;
   padding: 0 3%;
+  z-index: 100;
+  background-color: aliceblue;
+  box-shadow: 4px 2px white;
 }
 
 .left-side,
@@ -39,8 +46,12 @@ th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #ddd;
+tbody:nth-child(even) {
+  background-color: #ccf381;
+}
+
+tbody:nth-child(odd) {
+  background-color: #4831d4;
 }
 
 form {
