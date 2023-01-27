@@ -2,6 +2,7 @@ import './style.css';
 import { newGame, addScore } from './modules/gameHandler.js';
 import displayPlayer from './displayPlayer.js';
 // html elements as constants
+// this is a new code uploaded here
 const newPlayer = document.querySelector('#sub-btn');
 const refresh = document.querySelector('#refresh');
 const playerName = document.querySelector('#name');
